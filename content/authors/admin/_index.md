@@ -46,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ll587@cornell.edu'
+    link: 'mailto:lljessieee97@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/LiPGa

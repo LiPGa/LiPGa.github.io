@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jessie Li | Frames / Prototype</title>
+    <meta
+      name="description"
+      content="Photography portfolio prototype for Jessie Li."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Jessie Li home">
+        <span class="signal" aria-hidden="true"></span>
+        Jessie Li
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#series">Rolls</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">Notes</a>
+        <a href="#elsewhere">Links</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="gallery/new-mexico/nm4.JPG"
+          alt="A person walking across white sand dunes with mountains in the distance."
+        >
+        <div class="hero-meta" aria-label="Frame metadata">
+          <span>frame 001</span>
+          <span>new mexico</span>
+          <span>selected work</span>
+        </div>
+        <div class="hero-copy">
+          <p class="kicker">personal work</p>
+          <h1 id="hero-title">Jessie Li</h1>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Portfolio statement">
+        <div class="intro-label">~/photo-notes/index</div>
+        <p>selected photographs</p>
+      </section>
+
+      <section id="series" class="series-section" aria-labelledby="series-title">
+        <div class="section-heading split">
+          <div>
+            <p class="kicker">rolls</p>
+            <h2 id="series-title">Gallery</h2>
+          </div>
+        </div>
+
+        <div class="series-grid">
+          <a class="series-card" href="#gallery" data-roll="new-mexico">
+            <img
+              src="gallery/new-mexico/featured.jpg"
+              alt="Shiprock in New Mexico."
+            >
+            <span>New Mexico</span>
+            <small>5 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="alaska">
+            <img
+              src="gallery/alaska/L1040840-2.jpeg"
+              alt="Small cabins at the edge of mountains and water in Alaska."
+            >
+            <span>Alaska</span>
+            <small>10 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="huangshan">
+            <img
+              src="gallery/huangshan/L1080875.jpeg"
+              alt="Layered mountain ridges under low cloud in Huangshan."
+            >
+            <span>Huangshan</span>
+            <small>10 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="montauk">
+            <img
+              src="gallery/montauk/L1110798-2.jpeg"
+              alt="Blue coastline and grass at Montauk."
+            >
+            <span>Montauk</span>
+            <small>6 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="nyc">
+            <img
+              src="gallery/nyc/R0011681.jpg"
+              alt="Black and white New York skyline with people by the water."
+            >
+            <span>NYC</span>
+            <small>11 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="shanghai">
+            <img
+              src="gallery/shanghai/R0007704.jpg"
+              alt="Two people sitting under an orange umbrella in Shanghai."
+            >
+            <span>Shanghai</span>
+            <small>1 frame</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="tokyo">
+            <img
+              src="gallery/tokyo/L1160324.jpg"
+              alt="Tokyo city lights from above at dusk."
+            >
+            <span>Tokyo</span>
+            <small>2 frames</small>
+          </a>
+          <a class="series-card" href="#gallery" data-roll="washington">
+            <img
+              src="gallery/washington/02-DO1010161.jpg"
+              alt="The Capitol dome seen through a dark interior window in Washington."
+            >
+            <span>Washington</span>
+            <small>13 frames</small>
+          </a>
+        </div>
+      </section>
+
+      <section id="gallery" class="roll-detail-section" aria-label="Photo gallery">
+        <div class="section-heading split">
+          <div>
+            <p class="kicker" id="gallery-count">frames</p>
+            <h2 id="gallery-title">Gallery</h2>
+          </div>
+          <p id="gallery-note"></p>
+        </div>
+        <div id="roll-detail-root" class="roll-detail-root"></div>
+      </section>
+
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div class="about-copy">
+          <p class="kicker">notes</p>
+          <h2 id="about-title">code / photographs</h2>
+        </div>
+        <div id="elsewhere" class="elsewhere" aria-label="External profiles">
+          <a href="https://www.instagram.com/lipga.jpg/">Instagram</a>
+          <a href="https://lensculture.com/jessie-2">LensCulture</a>
+          <a href="https://lfi-online.de/en/gallery/Lingjia-Li-925807.html">LFI</a>
+          <a href="mailto:lljessieee97@gmail.com">Contact</a>
+        </div>
+      </section>
+    </main>
+    <script src="gallery.js" defer></script>
+  </body>
+</html>
